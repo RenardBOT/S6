@@ -1,0 +1,2 @@
+Créer sphere : Shift A > Mesh > Sphere
+Shift entre mode objet et edit : Tab

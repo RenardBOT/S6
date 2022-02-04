@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!--définition du type de document pour la conformité aux spécifications -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" 
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!--Référencement de l’espace de nommage => les noms des balises utilisables-->
+<svg width="10cm" height="10cm" viewBox="0 0 100.25 100.25" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" >
+
+<image xlink:href="grille.svg" x="0" y="0" height="100" width="100"/>
+<path   id="house" d="M 30 80 L 30 40 L 70 40 L 30 80 L 70 80 L 70 40 L 50 20 L 30 40 L 70 80 z"
+        fill="rgba(255,255,255,0)" stroke="red" stroke-width="0.8"/>
+
+<circle cx="0" cy="0" r="3" fill="blue">
+    <animateMotion  dur="5s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#house"/>
+    </animateMotion>
+</circle>
+
+
+</svg>
