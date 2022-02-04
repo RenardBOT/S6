@@ -1,2 +1,8 @@
 Créer sphere : Shift A > Mesh > Sphere
 Shift entre mode objet et edit : Tab
+Supprimer 3 rangs supérieurs en mode fil de fer (Z)
+Extruder le bord supérieur : Alt+click sur une arête > E pour extruder
+
+Garde : 
+Ajouter un cube au dessus du manche : Selection de deux faces parallèles > E pour extruder et en faire un parallépipède
+Selection des deux faces extérieures : S pour les scale (éventuellement X Y Z pour un axe)
